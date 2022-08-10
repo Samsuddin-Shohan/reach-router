@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Form from './pages/Form';
 import Clock from './pages/Clock';
 import Todo from './pages/Todo';
+import Counter from './pages/Counter';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="form" element={<Form />} />
         <Route path="clock" element={<Clock />} />
         <Route path="todo" element={<Todo />} />
+        <Route path="counter" element={<Counter />} />
     </Routes>
   </BrowserRouter>
   );
